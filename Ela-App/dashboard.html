@@ -1,0 +1,398 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google font -->
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap"
+      rel="stylesheet">
+  <!-- my css -->  
+    <link rel="stylesheet" href="Ela-homepage.css">
+    <link rel="stylesheet" href="lecturer.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Ela-App</title>
+</head>
+<body>
+    <header>
+       <section>
+        <div class="page-wrapper">
+            <div class="nav-wrapper">
+             <div class="grad-bar"></div>
+             <nav class="navbar">
+              <a href="index.html"><img src="EA.png" alt="Company Logo"></a>
+               <div class="menu-toggle" id="mobile-menu">
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+               </div>
+               <ul class="nav no-search" id="links-nav">
+                 <li class="nav-item"><a href="index.html">Home</a></li>
+                 <li class="nav-item"><a href="dashboard.html">Dashboard</a></li>
+                 <li class="nav-item"><a href="profile.html">Profile</a></li>
+                 <li class="nav-item"><a href="lecturer.html">Edit-Profile</a></li>
+                 <li class="nav-item"><a href="index.html">Log Out</a></li>
+               </ul>
+             </nav>
+             </div>
+            </div>
+        </section> 
+        <section class="headline">
+           <div class = "header-container">
+               <h1>Edit Your Profile Dashboard</h1>
+               <h1>Lecturer O'seun</h1>
+               <div class="login-body"><a href="#"> Assessment Schedule</a>
+               </div>
+           </div>              
+        </section>
+    </header>
+
+
+       <!-- Submit Assignment  -->
+
+   <article class="onclick">
+    <div class="container-onclick">  
+        <form id="contact" action="" method="post">
+          <h3>Schedule Asessments</h3>
+          <h4> </h4>
+          <fieldset>
+            <label id="proflie-lable">Question</label>
+            <textarea placeholder="Assessment...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <label id="proflie-lable">Submit</label>
+            <input placeholder="Assignment submit" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <label id="proflie-lable">Submit date</label>
+            <input placeholder="Assignment date" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <!-- <fieldset>
+            <textarea placeholder="Answer...." tabindex="5" required></textarea>
+          </fieldset> -->
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+          <p class="copyright">Powered by <a href="#home" target="_blank" title="Ela">Ela-App</a></p>
+        </form>
+      </div>
+   </article>
+   
+   <!-- Personal Information -->
+   <section id="dashboard-details">
+    <main class="testimonial-grid">
+      <article class="testimonalz grid-col-span-2 flow bg-primary-400 quote text-neutral-100">
+          <div id="context">
+            <h2 class="name">Submitted Assignment</h2>
+            <p class="position">Finished Assignments</p>
+          </div>
+        <div class="col-md-12">
+          <div class=photo-finished-assignments>
+            <img src="./images/image-patrick.jpg">
+            </div>
+        <li class="col-md-12"><i class="fa fa-user-circle"></i> Student: Dalu</li>
+        <li class="col-md-12"><i class="fa fa-file-code"></i>  Subject: Programming </li>
+        <li class="col-md-12"><i class="fa fa-book"></i> Topic: How to build app with django</li>
+        <li class="col-md-12"><i class="fa fa-book"></i>  Answer: MVC pattern</li>
+        <li class="col-md-12"><i class="fa fa-book"></i> Department: Chemical Engineering Submitted</li>
+        <li class="col-md-12"><i class="fa fa-calendar"></i>  Sept. 18, 2019, 2:34 p.m.</li>
+        <li class="col-md-12"><i class="fa fa-book"></i>   Status: declare</li>
+        <li class="col-md-12"><i class="fa fa-clock"></i>  Score: 90 Score</li>
+        </div><br>
+        <fieldset>
+        <button  name="submit" type="button" class="btn-edit" data-url="" data-submit="...Sending">
+          Status Edit
+        </button>
+        </fieldset>
+
+          <div id="context">
+            <h2 class="name">Submitted Assignment</h2>
+            <p class="position">Finished Assignments</p>
+          </div>
+        <div class="col-md-12">
+          <div class=photo-finished-assignments>
+            <img src="./images/image-jonathan.jpg">
+            </div>
+        <li class="col-md-12"><i class="fa fa-user-circle"></i> Student: Dante</li>
+        <li class="col-md-12"><i class="fa fa-file-code"></i>  Subject: Html/Css></li>
+        <li class="col-md-12"><i class="fa fa-book"></i> Topic: How to build app with django</li>
+        <li class="col-md-12"><i class="fa fa-book"></i>  Answer: MVC pattern</li>
+        <li class="col-md-12"><i class="fa fa-book"></i> Department: Chemical Engineering Submitted</li>
+        <li class="col-md-12"><i class="fa fa-calendar"></i>  Sept. 18, 2019, 2:34 p.m.</li>
+        <li class="col-md-12"><i class="fa fa-book"></i>   Status: declare</li>
+        <li class="col-md-12"><i class="fa fa-clock"></i>  Score: 90 Score</li>
+        </div><br>
+        <fieldset>
+        <button  name="submit" type="button" class="btn-edit" data-url="" data-submit="...Sending">
+          <!-- <span class="glyphicon glyphicon-pencil">Status</span>  -->
+          Status Edit
+        </button>
+        </fieldset>
+
+      </article>
+      <article class="testimonalz flow bg-secondary-400 text-neutral-100">
+        <div class="flex">
+          <!-- <div>
+            <img src="./images/image-jonathan.jpg" alt="Jonathan Walters">
+          </div>
+          <div>
+            <h2 class="name">Your List of Information</h2>
+            <p class="position">Verified Graduate</p>
+          </div> -->
+        </div>
+
+        <!-- <p>
+          The team was very supportive and kept me motivated
+        </p>
+        <p>
+          “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
+          for a big company. This was one of the best investments I’ve made in myself. ”
+        </p> -->
+        <div class="col-md-12">
+          <form id="contact" action="" method="post">
+              <h3>Schedule Classes</h3>
+              <h4> </h4>
+              <!-- <fieldset>
+                <label id="proflie-lable">Submit</label>
+                <input placeholder="Assignment submit" type="text" tabindex="1" required autofocus>
+              </fieldset> -->
+              <fieldset>
+                  <label id="proflie-lable">Subject</label>
+                  <input placeholder="Assignment date" type="text" tabindex="1" required autofocus>
+                </fieldset>
+              <fieldset>
+                <label id="proflie-lable">Topic</label>
+                <input placeholder="Assignment date" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <label id="proflie-lable">Date</label>
+                <input placeholder="Assignment date" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <label id="proflie-lable">Time</label>
+                <input placeholder="Assignment date" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <label id="proflie-lable">Note</label>
+                <textarea placeholder="Assessment...." tabindex="5" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+              <fieldset>
+              <!-- <p class="copyright">Powered by <a href="#home" target="_blank" title="Ela">Ela-App</a></p> -->
+            </form>    
+        <!-- <li class="col-md-12"><i class="fa fa-user-circle"></i> Lecturer: texplode</li>
+        <li class="col-md-12"><i class="fa fa-file-code"></i>  Subject: Programming</li>
+        <li class="col-md-12"><i class="fa fa-book"></i>  Topic: How to build apps with django</li> -->
+        <div>
+      </article>
+
+      <article class="testimonalz flow bg-neutral-100 text-secondary-400">
+        <div class="flex">
+          <!-- <div>
+            <img src="./images/image-jeanette.jpg" alt="Jeanette Harmon">
+          </div>
+          <div>
+            <h2 class="name">Your List of Assessment</h2>
+            <p class="position">Class of Programming</p>
+          </div>
+        </div>
+      </div> -->
+      <div class="col-md-12">
+        <form id="contact" action="" method="post">
+            <h3>Schedule Information</h3>
+            <h4> </h4>
+            <fieldset>
+                <label id="proflie-lable">Title</label>
+                <input placeholder="Assignment date" type="text" tabindex="1" required autofocus>
+              </fieldset>
+            <fieldset>
+              <label id="proflie-lable">Information</label>
+              <input placeholder="Assignment date" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+              <label id="proflie-lable">Submit date</label>
+              <input placeholder="Assignment date" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+          </form>    
+      <div>
+
+      </article>
+      <article class="testimonalz grid-col-span-2 flow bg-secondary-500 text-neutral-100">
+          <div id="context">
+            <h2 class="name">Your Submitted Assessments</h2>
+            <p class="position">Finished Assignment</p>
+          </div>
+        <div class="col-md-12">
+        <div class=photo-finished-assignment>
+          <img src="images\linkedin-sales-solutions-AhirGl0nhww-unsplash.jpg"> 
+        </div>
+        <li class="col-md-12"><i class="fa fa-file-code"></i>  Subject: Phonetics</li>
+        <li class="col-md-12"><i class="fa fa-book"></i>  Topic: phononlogy</li>
+        <li class="col-md-12"><i class="fa fa-book"></i>  Answer: This is test</li>
+        <li class="col-md-12"><i class="fa fa-home"></i> Department: None</li>
+        <li class="col-md-12"><i class="fa fa-user-circle"></i> Name: Temitayo</li>
+        <li class="col-md-12"><i class="fa fa-calendar"></i> Score: 89%</li>
+      </div><br>
+  
+      <div class="col-md-12">
+        <div class=photo-finished-assignment >
+          <img src="C:\Users\Damel_Design\Downloads\learn-grid-the-easy-way-main\learn-grid-the-easy-way-main\images\linkedin-sales-solutions-1LyBcHrH4J8-unsplash.jpg"> 
+        </div>
+        <li class="col-md-12"><i class="fa fa-file-code"></i>  Subject: Phonetics</li>
+        <li class="col-md-12"><i class="fa fa-book"></i>  Topic: phononlogy</li>
+        <li class="col-md-12"><i class="fa fa-book"></i>  Answer: This is test</li>
+        <li class="col-md-12"><i class="fa fa-home"></i> Department: None</li>
+        <li class="col-md-12"><i class="fa fa-user-circle"></i> Name: Temitayo</li>
+        <li class="col-md-12"><i class="fa fa-calendar"></i> Score: 89%</li>
+      </div><br>
+        <!-- <p>
+          Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
+          learning from their experiences was easy.
+        </p>
+        <p>
+          “ The staff seem genuinely concerned about my progress which I find really refreshing. The program
+          gave me the confidence necessary to be able to go out in the world and present myself as a capable
+          junior developer. The standard is above the rest. You will get the personal attention you need from
+          an incredible community of smart and amazing people. ”
+        </p> -->
+      </article>
+
+
+      <article class="testimonalz flow bg-neutral-100 text-secondary-400">
+
+        <p>
+          Your List of Classes
+        </p>
+        <p>
+          Class for 17th of March 2022
+        </p>
+        <div class="col-md-12">
+          <div class="Document">
+            <a href="/media/material/Andela_Nigeria_Cycle_45_Technical_Challenge_D1sJkuU.pdf" class="btn-edit">Download Material (..pdf file)</a>
+            </div><br>
+
+            <li class="col-md-12"><i class="fa fa-file-code"></i>  Subject: Html/Css></li>
+            <li class="col-md-12"><i class="fa fa-book"></i> Topic: How to build app with django</li>
+            <li class="col-md-12"><i class="fa fa-book"></i> Note: This is a program for all Level programmers</li>
+            <li class="col-md-12"><i class="fa fa-calendar"></i>  Date: 16th of May 2022</li>
+            <li class="col-md-12"><i class="fa fa-book"></i>   Status: conceal</li>
+            </div><br>
+            </fieldset>
+        <button  name="submit" type="button" class="btn-edit" data-url="" data-submit="...Sending">
+          <!-- <span class="glyphicon glyphicon-pencil">Status</span>  -->
+          Edit
+        </button>
+        </fieldset>
+        <fieldset>
+          <button  name="submit" type="button" class="btn-edit" data-url="" data-submit="...Sending">
+            <!-- <span class="glyphicon glyphicon-pencil">Status</span>  -->
+            Delete
+          </button>
+          </fieldset>
+
+          <p>
+            Your List of Classes
+          </p>
+          <p>
+            Class for 16th of May 2022
+          </p>
+          <div class="col-md-12">
+            <div class="Document">
+              <a href="/media/material/Andela_Nigeria_Cycle_45_Technical_Challenge_D1sJkuU.pdf" class="btn-edit">Download Material (..pdf file)</a>
+              </div><br>
+
+          <li class="col-md-12"><i class="fa fa-file-code"></i>  Subject: Html/Css></li>
+          <li class="col-md-12"><i class="fa fa-book"></i> Topic: How to build app with django</li>
+          <li class="col-md-12"><i class="fa fa-book"></i> Note: This is a program for all Level programmers</li>
+          <li class="col-md-12"><i class="fa fa-calendar"></i>  Date: 16th of May 2022</li>
+          <li class="col-md-12"><i class="fa fa-book"></i>   Status: conceal</li>
+          </div><br>
+          <fieldset>
+          <button  name="submit" type="button" class="btn-edit" data-url="" data-submit="...Sending">
+            <!-- <span class="glyphicon glyphicon-pencil">Status</span>  -->
+            Edit
+          </button>
+          </fieldset>
+          <fieldset>
+            <button  name="submit" type="button" class="btn-edit" data-url="" data-submit="...Sending">
+              <!-- <span class="glyphicon glyphicon-pencil">Status</span>  -->
+              Delete
+            </button>
+            </fieldset>
+        
+      </article>
+    </main>
+  
+  
+  
+  
+   </section>
+
+
+
+
+
+
+
+
+
+        <!-- </footer> -->
+
+ <footer>
+
+    <section id="footer">
+      <div class="container footer-row">
+          <hr>
+          <div class="footer-left-col">
+              <div class="footer-link">
+                  <div class="link-title">
+                      <h4>Stay</h4>
+                      <small>Free Trail</small>
+                  </div>
+                  <div class="link-title">
+                      <h4>In</h4>
+                      <small>FAQs</small>
+                  </div>
+                  <div class="link-title">
+                      <h4>Touch</h4>
+                      <small>Contact Us</small>
+                  </div>  
+                  <div class="link-title">
+                      <small><div class="social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                      </div></small>
+                  </div>  
+              </div>
+          </div>
+          <div class="footer-right-col">
+              <div class="footer-info">
+                  <div class="copyright-text">
+                      <small><a href="mailto:dr.udu@gmail.com"><i class="fa fa-envelope"></i> ela-app@gmail.com</a></small>
+                      <a>07063419292,08089657753, 07033288348</a>
+  
+                      <span>&copy 2021 Ela App</span>
+  
+                  </div>
+                  <div class="footer-logo">
+                      <img src="EA BLACK.png">
+  
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
+  <script src="Ela-app.js"></script>
+  </body>
+  </html>

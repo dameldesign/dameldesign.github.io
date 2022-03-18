@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+.lower-three-quarters h3 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 12pt;
+	color: #5d5d5d;
+  
+  }
+  
+  .left-column {
+	/* width: 100%; */
+	margin: 80px auto;
+	display: flex;
+	position: relative;
+	align-content: center;
+	justify-content: center;
+	/* top: -90px; */
+  }
+  
+  .left-column header {
+	background-color:  #ffa500;
+	padding: 10px;
+  }
+  
+  .left-column h2 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 50px;
+	color: #f5f5f5;
+  }
+  
+  .left-column h3 {
+	padding-left: 15px;
+	font-size: 18px;
+	margin-bottom: 0px;
+  }
+  
+  .left-column h4 {
+	padding-left: 15px;
+	margin-top: 2.5px;
+	margin-bottom: 10px;
+	font-size: 14px;
+  }
+  
+			  .left-column li{
+				  font-family: 'Open Sans';
+				  font-weight: 300;
+				  font-size: 12pt;
+				  color: #5d5d5d;
+				  padding-top: 5px;
+				  padding-bottom: 5px;
+				  line-height: 20px;
+				  margin-left: 35px;
+				  list-style-type: circle;
+				  }
+  
+  .experience {
+	border: 2px solid #ffa500;
+	margin-bottom: 25px;
+	width: 650px;
+	background-color: #f2f2f2;
+	-webkit-box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+  }
+  
+  .riser {
+	padding: 10px 10px 0px 10px;
+	margin-bottom: 10px;
+  }
+  
+  .experience h3 {
+	color: #ff9100;
+	/* background: linear-gradient(to right, #ffffff, #f67280, #ff0000, #ff9100  ); */
+	
+	
+  }
+  
+  .experience h3:hover {
+	color: #f67280;
+  }
+  
+  .experience h3:active {
+	color: #ff0000;
+  }
+  
+  .ac-logo {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+  }
+  
+  .riser-logo {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+  }
+  
+  .byu {
+	padding: 0px 10px 0px 10px;
+	margin-bottom: 10px
+  }
+  
+  .byu-logo {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+  }
+  
+  .vivint {
+	padding: 0px 10px 0px 10px;
+	/* margin-bottom: 2rem; */
+  }
+  .vivint-logo {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+  }
+
+  @media screen {
+	  
+  }
+  

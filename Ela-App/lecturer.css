@@ -1,0 +1,183 @@
+/* @media only screen and (max-width: 480px){
+    form #contatcs {
+        background: #F9F9F9;
+        padding: 25px;
+        margin: 75px 35px;
+    }
+    .profile-onclick {
+        max-width: 300px;
+        width: 90%;
+        margin: 0 0;
+        position: relative;  
+    }
+} */
+
+
+/* Submmit Assignment */
+article{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  
+    .profile {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    /* font-size: 12px; */
+    /* line-height: 30px; */
+    /* display: flex;
+    color: #777;
+    background: #4CAF50; */
+  }
+  
+  .profile-onclick {
+    /* max-width: 400px; */
+    width: 100%;
+    margin: 0 0;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    /* opacity: 0; */
+    /* pointer-events: none;
+    display: none; */
+    
+  }
+  /* .container-onclick.display{
+    opacity: 1 !important;
+    pointer-events: visible !important;
+    display: block !important;
+  } */
+  
+  #contatcs input[type="text"],
+  #contatcs input[type="email"],
+  #contatcs input[type="tel"],
+  #contatcs input[type="number"],
+  #contatcs input[type="url"],
+  #contatcs textarea,
+  #contatcs button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+  
+  #contatcs {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    max-width: 900px;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  #contatcs h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contatcs h5 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 10px !;
+    font-weight: 300;
+  }
+  label #proflie-lable {
+    margin: 5px 0 10px;
+    display: block;
+    font-size: 13px !important;
+    font-size: 400;
+  }
+ 
+  #contatcs p {
+    color: #000;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contatcs input[type="text"],
+  #contatcs input[type="email"],
+  #contatcs input[type="tel"],
+  #contatcs input[type="url"],
+  #contatcs textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  #contatcs input[type="text"]:hover,
+  #contatcs textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  #contatcs textarea {
+    height: 200px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contatcs button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #contatcs button[type="submit"]:hover {
+    background: #fd8c00;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contatcs button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .copyright {
+    text-align: center;
+    color: #000;
+  }
+  
+  #contatcs input:focus,
+  #contatcs textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
